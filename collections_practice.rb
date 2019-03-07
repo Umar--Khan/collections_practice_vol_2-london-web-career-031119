@@ -20,3 +20,7 @@ def count_elements(arr)
   arr.each {|x| count[x] += 1}
   count.map { |key, value| ":count => #{value}, #{key}" }.join(', ')
 end
+
+def merge_data (def)
+  opt.reverse_merge!(def)
+end
